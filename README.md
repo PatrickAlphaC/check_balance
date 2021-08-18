@@ -1,15 +1,20 @@
 Python Script for monitoring ETH Balance 
 
 # Required Environment variables:
-`MAINNET_ETH_NODE_ADDRESS`: Your mainnet eth node address.
+`MAINNET_ETH_NODE_ADDRESS`: Your mainnet eth node address
+
 `ETHERSCAN_API_KEY`: Your [Etherscan API Key](https://etherscan.io/myapikey)
 
 ## Optional Environment variables
 If you want to send a text via Twilio when the balance is too low:
 `TWILIO_ACCOUNT_SID`: Sign up for a [Twilio account](https://www.twilio.com/docs/iam/keys/api-key)
+
 `TWILIO_AUTH_TOKEN`: Sign up for a [Twilio account](https://www.twilio.com/docs/iam/keys/api-key)
+
 `CELL_PHONE`: An authorized cell number
+
 `TWILIO_CELL`: A phone number from Twilio
+
 
 # Useage
 
